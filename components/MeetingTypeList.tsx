@@ -1,11 +1,8 @@
 
 import React from 'react'
-import Image from 'next/image'
-import toast from 'react-hot-toast'
 import { useState } from 'react'
 import HomeCard from './HomeCard'
 import { useRouter } from 'next/navigation'
-import MeetingModel from './MeetingModel'
 import { Call, useStreamVideoClient } from '@stream-io/video-react-sdk'
 import { useUser } from '@clerk/nextjs'
 import MeetingModal from './MeetingModel'

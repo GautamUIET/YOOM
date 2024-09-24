@@ -1,5 +1,5 @@
 import CallList from '@/components/CallList';
-import { Call } from '@stream-io/video-react-sdk';
+
 import React from 'react'
 
 const recording = () => {
