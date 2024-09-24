@@ -2,6 +2,6 @@
   "extends": "next/core-web-vitals",
   "rules": {
     "react/jsx-key": "off", // Disable the rule
-    "another-rule": "warn"   // Example of setting another rule to warning
+   
   }
 }
